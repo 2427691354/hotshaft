@@ -1,2 +1,9 @@
-﻿server:
+server:
   port: 8800
+
+##服务名
+TEST:
+  ribbon:
+    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule
+
+
