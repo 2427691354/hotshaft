@@ -1,15 +1,6 @@
 server:
   port: 8800
-  
 
-
-eureka:
-  instance:
-    hostname: localhost
-  client:
-    register-with-eureka: false
-    service-url:
-      defaultZone: http://eureka8600.com:8600/eureka/,http://eureka8601.com:8601/eureka/,http://eureka8602.com:8602/eureka/
 ##服务名
 TEST:
   ribbon:
