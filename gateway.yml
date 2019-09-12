@@ -1,0 +1,16 @@
+﻿server:
+  port: 9000
+spring:
+  profiles:
+    active: dev
+---
+#生产环境
+spring:
+  profiles: proc
+  application:
+    name: 生产环境
+---
+#开发环境
+spring:
+  profiles: dev
+  
