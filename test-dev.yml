@@ -1,3 +1,6 @@
-﻿spring:
+server:
+  port: 8700
+  
+spring:
   application:
-    name: test2
+    name: test
